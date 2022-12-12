@@ -42,6 +42,30 @@ public class MainActivity2 extends AppCompatActivity {
 
     };
     int e = 0;
+    //array para frases cuando estas confundido
+    String[] caraCo = {
+            "asass"
+
+    };
+    int c = 0;
+    //array pra frases cuando estas asustado
+    String[] caraAs = {
+            "asass"
+
+    };
+    int s = 0;
+    //array para frases cuando estas fachero
+    String[] caraFa = {
+            "asass"
+
+    };
+    int h = 0;
+    //array para frases cuando estas payaso
+    String[] caraPa = {
+            "asass"
+
+    };
+    int p = 0;
 
 
     TextView tv3;
@@ -127,6 +151,58 @@ public class MainActivity2 extends AppCompatActivity {
 
         }
     }
+    //cara confundido
+    public void c6 (View view)
+    {
+        if (c <= 2) {
+            tv3.setText(caraCo[c]);
+            c++;
+        } else {
+            c = 0;
+            tv3.setText(". . .");
+
+        }
+    }
+    //cara asustado
+    public void c7 (View view)
+    {
+        if (s <= 2) {
+            tv3.setText(caraAs[s]);
+            s++;
+        } else {
+            s = 0;
+            tv3.setText(". . .");
+
+        }
+    }
+    //cara fachero
+    public void c8 (View view)
+    {
+        if (h <= 2) {
+            tv3.setText(caraFa[h]);
+            h++;
+        } else {
+            h = 0;
+            tv3.setText(". . .");
+
+        }
+    }
+    //cara poyaso
+    public void c9 (View view)
+    {
+        if (p <= 2) {
+            tv3.setText(caraPa[p]);
+            p++;
+        } else {
+            p = 0;
+            tv3.setText(". . .");
+
+        }
+    }
+
+
+
+
 
 
 
