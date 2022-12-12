@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#F3E6C1"
     tools:context=".MainActivity2">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_width="375dp"
         android:layout_height="117dp"
         android:layout_marginTop="32dp"
-        android:background="#FFFFFF"
+        android:background="#F3E6C1"
         android:letterSpacing="0.2"
         android:text="@string/txt_2"
         android:textAlignment="center"
@@ -25,15 +25,15 @@
 
     <TextView
         android:id="@+id/tv3"
-        android:layout_width="378dp"
-        android:layout_height="181dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
-        android:background="#FDF7F7"
+        android:layout_width="349dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="28dp"
+        android:background="#CFC3A0"
         android:text="@string/txt_3"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/c3" />
 
@@ -49,7 +49,8 @@
         android:onClick="c1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv2"
-        app:srcCompat="@drawable/_f601" />
+        app:srcCompat="@drawable/_f601"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/c3"
@@ -64,7 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/c2"
         app:srcCompat="@drawable/_f621"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
         android:id="@+id/c2"
@@ -79,48 +80,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/c1"
         app:srcCompat="@drawable/_f62d"
-        tools:ignore="ImageContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="190dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
-        android:text="Feliz"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="50dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/c1"
-        app:layout_constraintTop_toBottomOf="@+id/tv2" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="190dp"
-        android:layout_height="85dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="24dp"
-        android:text="Triste"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="50dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/c2"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="190dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="28dp"
-        android:text="Enojado"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="50dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/c3"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,15 +1,21 @@
 <resources>
-    <string name="app_name" translatable="false">TICparte1</string>
-    <string name="txt_1">          Ingrese su nombre</string>
-    <string name="txt_4">          Ingrese su apellido</string>
+    <string name="app_name">Emotions</string>
+    <string name="txt_1">  Ingrese su nombre</string>
+    <string name="txt_4">  Ingrese su apellido</string>
     <string name="txt_2">Nombre</string>
     <string name="txt_3">. . .</string>
+    <string name="txt_splash">Emotions</string>
     <string name="boton">Siguiente</string>
     <string name="c1">Feliz</string>
     <string name="c2">Triste</string>
     <string name="c3">Enojado</string>
+    <string name="c4"></string>
+    <string name="c5"></string>
+    <string name="c6"></string>
+    <string name="c7"></string>
+    <string name="c8"></string>
+    <string name="c9"></string>
     <string name="imagen">logo</string>
-
 
 
 </resources>
