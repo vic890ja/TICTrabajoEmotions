@@ -84,31 +84,91 @@
 
     <ImageButton
         android:id="@+id/c4"
-        android:layout_width="92dp"
-        android:layout_height="79dp"
+        android:layout_width="85dp"
+        android:layout_height="76dp"
         android:layout_marginStart="62dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="170dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/c4"
         android:onClick="c4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/c1"
         app:layout_constraintTop_toBottomOf="@+id/tv2"
-        app:srcCompat="@mipmap/frustrado" />
+        app:srcCompat="@drawable/frustradoni" />
 
     <ImageButton
         android:id="@+id/c5"
-        android:layout_width="92dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/c5"
         android:onClick="c5"
         app:layout_constraintStart_toEndOf="@+id/c2"
         app:layout_constraintTop_toBottomOf="@+id/c4"
-        app:srcCompat="@mipmap/enamorado" />
+        app:srcCompat="@drawable/enamorado" />
+
+    <ImageButton
+        android:id="@+id/c6"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="128dp"
+        android:layout_weight="1"
+        android:background="#028BC34A"
+        android:contentDescription="@string/c2"
+        android:onClick="c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        app:srcCompat="@drawable/caritaconfundida"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/c7"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="128dp"
+        android:layout_weight="1"
+        android:background="#028BC34A"
+        android:contentDescription="@string/c2"
+        android:onClick="c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        app:srcCompat="@drawable/asustao"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/c8"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="#028BC34A"
+        android:contentDescription="@string/c2"
+        android:onClick="c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        app:srcCompat="@drawable/facha"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/c9"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:background="#028BC34A"
+        android:contentDescription="@string/c2"
+        android:onClick="c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        app:srcCompat="@drawable/payaso"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
 </android.support.constraint.ConstraintLayout>
