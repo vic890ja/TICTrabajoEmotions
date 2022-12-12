@@ -4,70 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DDBCDA69"
     tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/tv2"
-        android:layout_width="305dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="392dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="16dp"
+        android:letterSpacing="0.2"
         android:text="@string/txt_2"
+        android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="381dp"
-        android:layout_height="129dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="80dp"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv2">
-
-        <ImageButton
-            android:id="@+id/c1"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#00FFFFFF"
-            android:contentDescription="@string/c1"
-            android:onClick="c1"
-            app:srcCompat="@mipmap/feliz5" />
-
-        <ImageButton
-            android:id="@+id/c2"
-            android:layout_width="9dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#028BC34A"
-            android:contentDescription="@string/c2"
-            android:onClick="c2"
-            app:srcCompat="@mipmap/triste5"
-            tools:ignore="ImageContrastCheck" />
-
-        <ImageButton
-            android:id="@+id/c3"
-            android:layout_width="5dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#00FFFFFF"
-            android:contentDescription="@string/c3"
-            android:onClick="c3"
-            app:srcCompat="@mipmap/enojado5" />
-    </LinearLayout>
-
     <TextView
         android:id="@+id/tv3"
-        android:layout_width="383dp"
-        android:layout_height="231dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="378dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="156dp"
         android:text="@string/txt_3"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/c3" />
+
+    <ImageButton
+        android:id="@+id/c1"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/c1"
+        android:onClick="c1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        app:srcCompat="@mipmap/feliz5" />
+
+    <ImageButton
+        android:id="@+id/c3"
+        android:layout_width="80dp"
+        android:layout_height="76dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/c3"
+        android:onClick="c3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c2"
+        app:srcCompat="@mipmap/enojado5" />
+
+    <ImageButton
+        android:id="@+id/c2"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_weight="1"
+        android:background="#028BC34A"
+        android:contentDescription="@string/c2"
+        android:onClick="c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        app:srcCompat="@mipmap/triste5"
+        tools:ignore="ImageContrastCheck" />
 
 </android.support.constraint.ConstraintLayout>

@@ -4,32 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#000000"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <EditText
         android:id="@+id/nom"
         android:layout_width="261dp"
         android:layout_height="68dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="68dp"
         android:autofillHints="@+id/nom"
+        android:background="#FFFFFF"
         android:ems="10"
-        android:hint="@string/txt_1"
+        android:hint="Ingrese su nombre"
         android:inputType="textPersonName"
-        android:textColorHint="#546E7A"
+        android:letterSpacing="0.025"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/siguiente"
         android:layout_width="191dp"
         android:layout_height="55dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#FFFFFF"
         android:onClick="siguiente"
         android:text="@string/boton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nom" />
+        app:layout_constraintTop_toBottomOf="@+id/nom2" />
 
+    <EditText
+        android:id="@+id/nom2"
+        android:layout_width="261dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="52dp"
+        android:autofillHints="@+id/nom2"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Ingrese su apellido"
+        android:inputType="textPersonName"
+        android:letterSpacing="0.025"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nom"
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="277dp"
+        android:layout_height="259dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="40dp" /><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+    "/>
+
+
+
+
+
+
+
+]]>
 </android.support.constraint.ConstraintLayout>
