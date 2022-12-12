@@ -9,6 +9,8 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private EditText et1;
+    private EditText et4;
+
 
 
     @Override
@@ -17,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         et1 = findViewById(R.id.nom);
+        et4 = findViewById(R.id.nom2);
 
     }
     //Boton siguiente
@@ -24,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity2.class);
 
         i.putExtra( "dato", et1.getText().toString());
+        i.putExtra("dato2", et4.getText().toString());
         startActivity(i);
     }
 }

@@ -46,7 +46,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         //obtener nombre de activity1
         String dato = getIntent().getStringExtra("dato");
-        tv2.setText("Hola " + dato + " como te sientes hoy");
+        String dato2 = getIntent().getStringExtra("dato2");
+        tv2.setText("Hola " + dato + " " + dato2 + " como te sientes hoy");
 
     }
 
@@ -59,7 +60,7 @@ public class MainActivity2 extends AppCompatActivity {
             i++;
         } else {
             i = 0;
-            tv3.setText("Sientes");
+            tv3.setText(". . .");
 
         }
     }
@@ -72,7 +73,7 @@ public class MainActivity2 extends AppCompatActivity {
             f++;
         } else {
             f = 0;
-            tv3.setText("Sientes");
+            tv3.setText(". . .");
 
         }
     }
@@ -85,7 +86,7 @@ public class MainActivity2 extends AppCompatActivity {
             j++;
         } else {
             j = 0;
-            tv3.setText("Sientes");
+            tv3.setText(". . .");
 
         }
     }
