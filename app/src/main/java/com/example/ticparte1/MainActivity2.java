@@ -1,6 +1,7 @@
 package com.example.ticparte1;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -86,6 +87,16 @@ public class MainActivity2 extends AppCompatActivity {
         String dato2 = getIntent().getStringExtra("dato2");
         tv2.setText("Hola " + dato + " " + dato2 + " como te sientes hoy");
 
+    }
+    //boton volver
+    public void volver(View view) {
+        Intent volver = new Intent(this, MainActivity.class);
+        startActivity(volver);
+    }
+    //boton cerrar
+    @SuppressLint("")
+    public void cerrar(View view){
+        finishAffinity();
     }
 
 

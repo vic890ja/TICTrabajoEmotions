@@ -1,5 +1,6 @@
 package com.example.ticparte1;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra( "dato", et1.getText().toString());
         i.putExtra("dato2", et4.getText().toString());
         startActivity(i);
+    }
+    //boton cerrar
+    @SuppressLint("")
+    public void cerrar(View view){
+        finishAffinity();
     }
 }
 

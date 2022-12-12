@@ -6,6 +6,8 @@
     <string name="txt_3">. . .</string>
     <string name="txt_splash">Emotions</string>
     <string name="boton">Siguiente</string>
+    <string name="boton2">Volver</string>
+    <string name="boton3">Cerrar</string>
     <string name="c1">Feliz</string>
     <string name="c2">Triste</string>
     <string name="c3">Enojado</string>
