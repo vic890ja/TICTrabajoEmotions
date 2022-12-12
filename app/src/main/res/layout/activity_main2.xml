@@ -82,4 +82,33 @@
         app:srcCompat="@drawable/_f62d"
         tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
+    <ImageButton
+        android:id="@+id/c4"
+        android:layout_width="92dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="170dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/c4"
+        android:onClick="c4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toEndOf="@+id/c1"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        app:srcCompat="@mipmap/frustrado" />
+
+    <ImageButton
+        android:id="@+id/c5"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/c5"
+        android:onClick="c5"
+        app:layout_constraintStart_toEndOf="@+id/c2"
+        app:layout_constraintTop_toBottomOf="@+id/c4"
+        app:srcCompat="@mipmap/enamorado" />
+
 </android.support.constraint.ConstraintLayout>

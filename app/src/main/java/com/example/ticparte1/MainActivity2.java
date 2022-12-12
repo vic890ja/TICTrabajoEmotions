@@ -23,13 +23,26 @@ public class MainActivity2 extends AppCompatActivity {
 
     };
     int f = 0;
-    //array para frases caundo estas enojado
+    //array para frases cuando estas enojado
     String[] caraE = {
             "Estar enojado es vengar el error de los demás sobre nosotros mismos",
             "El enojo es una emoción válida. Solo es malo cuando toma el control y te hace hacer cosas que no quieres hacer",
             "El enojo es una señal, una que vale la pena escuchar"
     };
     int j = 0;
+    //array para frases cuando estas frustrado
+    String[] caraFr = {
+            "dadad"
+
+    };
+    int k = 0;
+    //array para frases cuando estas enamorado
+    String[] caraEn = {
+            "asass"
+
+    };
+    int e = 0;
+
 
     TextView tv3;
 
@@ -90,6 +103,32 @@ public class MainActivity2 extends AppCompatActivity {
 
         }
     }
+    //cara frustrado
+    public void c4 (View view)
+    {
+        if (k <= 2) {
+            tv3.setText(caraFr[k]);
+            k++;
+        } else {
+            k = 0;
+            tv3.setText(". . .");
+
+        }
+    }
+    //cara enamorado
+    public void c5 (View view)
+    {
+        if (e <= 2) {
+            tv3.setText(caraEn[e]);
+            e++;
+        } else {
+            e = 0;
+            tv3.setText(". . .");
+
+        }
+    }
+
+
 
 
 
