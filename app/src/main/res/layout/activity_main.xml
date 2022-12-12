@@ -14,8 +14,9 @@
         android:layout_marginTop="244dp"
         android:autofillHints="@+id/nom"
         android:ems="10"
+        android:hint="@string/txt_1"
         android:inputType="textPersonName"
-        android:text="@string/txt_1"
+        android:textColorHint="#546E7A"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor" />
